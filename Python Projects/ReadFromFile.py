@@ -11,7 +11,6 @@ with open('ReadFile.txt') as f:
         else:
             counter_name[line]  = 1
         line = f.readline()
-    print(ReadFile[3:-26])
-
+    
 
 print(counter_name)
