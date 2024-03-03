@@ -11,9 +11,6 @@ An alternate strategy might be to guess 50 (right in the middle of the range), a
 After you've written the program, try to find the optimal strategy! (We'll talk about what is the optimal one next week with the solution.)
 '''
 import random
-
-# Awroken
-
 MINIMUM = 0
 MAXIMUM = 100
 NUMBER = random.randint(MINIMUM, MAXIMUM)
