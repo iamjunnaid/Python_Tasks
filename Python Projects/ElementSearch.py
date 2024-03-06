@@ -1,9 +1,11 @@
-# Write a function that takes an ordered list of numbers (a list where the elements are in order from smallest to largest) 
-# and another number. The function decides whether or not the given number is inside the list and returns (then prints) 
-# an appropriate boolean.
+'''
+Write a function that takes an ordered list of numbers (a list where the elements are in order from smallest to largest) 
+and another number. The function decides whether or not the given number is inside the list and returns (then prints) 
+an appropriate boolean.
 
-# find is a function that takes an ordered list of numbers and another number,
-# returning true or false whether the element appears in the list
+find is a function that takes an ordered list of numbers and another number,
+returning true or false whether the element appears in the list
+'''
 
 def elementsearch(list1, number):
     for element in list1:
