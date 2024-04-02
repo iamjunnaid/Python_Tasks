@@ -14,7 +14,7 @@ try:
     mysql_Create_Table = """CREATE TABLE Information(
                     Id int(11) NOT NULL,
                     Name varchar(250) NOT NULL,
-                    Photo BLOB NOT NULL,
+                    Photo LONGBLOB NOT NULL,
                     Bio_DATA BLOB NOT NULL,
                     PRIMARY KEY(Id))"""
 
