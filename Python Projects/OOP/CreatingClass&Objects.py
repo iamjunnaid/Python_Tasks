@@ -16,8 +16,8 @@ class Employee:
     
     #Instance Method
     def show(self):
-        print('The Employee details are: ',self.name,self.salary,self.location, self.company)
-
+        print('The Employee name is',self.name,',it\'s salary is ', self.salary, 'located at ', self.location, 'and works in ', self.company)
+        
 # Creating Objects
 employee1 = Employee('Alex', 2799, "Oulu")
 employee1.show()
