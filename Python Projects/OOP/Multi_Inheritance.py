@@ -10,6 +10,7 @@ class Person:
         self.name = name
         self.age = age
         print(name,'is',age,'years old')
+        
 
 class Company:
     def company_information(self,title,location,field):
@@ -17,6 +18,7 @@ class Company:
         self.location = location
         self.field = field
         print(title,'is located at',location,'and works in',field,'domain')
+        
 
 class Employee(Person,Company):
     def employee_information(self,skill,salary):
