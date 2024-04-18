@@ -23,3 +23,4 @@ class Bus(Vehicle):
 
 volvo = Bus("School Volvo", 20, 50)
 print("Total Bus fare is:", volvo.fare())
+print(type(volvo))
