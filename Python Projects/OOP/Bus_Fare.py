@@ -23,4 +23,10 @@ class Bus(Vehicle):
 
 volvo = Bus("School Volvo", 20, 50)
 print("Total Bus fare is:", volvo.fare())
+
+#Check type of the "volvo" object
 print(type(volvo))
+
+
+# Check if "volvo" is also an instance of the Vehicle class
+print(isinstance(volvo,Vehicle))
