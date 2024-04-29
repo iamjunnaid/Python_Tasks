@@ -18,6 +18,5 @@ products = [
 def Test_multiplication(x, y, result):
     assert x * y == result
 
-def test_one_plus():
-    assert 1+1==2
+
 
