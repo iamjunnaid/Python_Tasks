@@ -3,7 +3,7 @@
 Library        SeleniumLibrary
 
 *** Test Cases ***
-TEST
+LoginTEST
     Open Browser    https://demo.nopcommerce.com/    firefox
     Maximize Browser Window
     Click Link    xpath://a[@class='ico-login']
