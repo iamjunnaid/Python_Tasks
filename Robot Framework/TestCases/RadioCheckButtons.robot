@@ -12,7 +12,6 @@ LoginTEST
     Maximize Browser Window
     Sleep     5s
     Click Button    xpath://*[@id="ez-accept-all"]
-    Sleep    5s
     Select Radio Button    sex    Male
     Select Radio Button    exp    3
 
