@@ -3,7 +3,7 @@
 Library        SeleniumLibrary
 
 *** Test Cases ***
-NavigationalKeywordTEST
+ScreenshotTEST
     Open Browser    https://wikipedia.org    firefox
     Maximize Browser Window
     Capture Element Screenshot    xpath://*[@id="www-wikipedia-org"]/main/div[1]/h1/span   logo.png
