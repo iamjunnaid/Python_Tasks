@@ -1,4 +1,4 @@
-# Python Tasks: Showcasing My Skills
+# Python Tasks:
 
 This repository is a collection of Python tasks I've completed to demonstrate my problem-solving skills and understanding of the language. Each task represents a different challenge, and the solutions showcase my approach to tackling diverse problems with Python.
 
